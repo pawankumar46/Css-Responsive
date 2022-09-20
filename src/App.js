@@ -106,7 +106,7 @@ function App(props) {
     
       <div className="row" style={{marginTop: "10px"}}>
         <div className="col-md-3" style={{padding: "2px"}}>
-         <div className="shadow-sm p-1 bg-body " style={{height:" 160px"}}>
+         <div className="shadow-sm p-1 bg-body " style={{height:" 200px"}}>
          <div className="row" style={{marginLeft: "5px" , marginRight : '5px'}}>
            <div className="col-md-8" style={{backgroundColor: "#90EE90"}}>
                <h4 style={{textAlign : 'center'}}>Items</h4>
@@ -131,7 +131,7 @@ function App(props) {
          
        </div>
        <div className="col-md-3" style={{padding: "2px"}}>
-         <div className="shadow-sm p-1 bg-body " style={{height: "160px"}}>
+         <div className="shadow-sm p-1 bg-body " style={{height: "200px"}}>
          <div className="row" style={{marginLeft: "5px" , marginRight : '5px'}}>
            <div className="col-md-8" style={{backgroundColor: "#90EE90"}}>
            <h4 style={{textAlign : 'center'}}>Items</h4>
@@ -155,7 +155,7 @@ function App(props) {
          
        </div>
        <div className="col-md-3" style={{padding: "2px"}}>
-         <div className="shadow-sm p-1 bg-body " style={{height: "160px"}}>
+         <div className="shadow-sm p-1 bg-body " style={{height: "200px"}}>
          <div className="row" style={{marginLeft: "5px" , marginRight : '5px'}}>
            <div className="col-md-8" style={{backgroundColor: "#90EE90"}}>
            <h4 style={{textAlign : 'center'}}>Items</h4>
@@ -180,7 +180,7 @@ function App(props) {
        </div>
        <div className="col-md-3" >
           
-         <div className="shadow-sm p-1 " style={{height: "160px" , backgroundColor : '#F1E5AC'}}>
+         <div className="shadow-sm p-1 " style={{height: "200px" , backgroundColor : '#F1E5AC'}}>
            <h5>Notes</h5>
            <p><i class=" fs-4 bi bi-pen"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero
            </p>
@@ -193,7 +193,7 @@ function App(props) {
         <div className="row" style={{marginTop: "10px"}}>
         
           <div className="col-md-3"  style={{padding: "2px"}}>
-           <div className="shadow-sm p-1 bg-body "  style={{height: "160px"}}>
+           <div className="shadow-sm p-1 bg-body "  style={{height: "200px"}}>
            <div className="row" style={{marginLeft: "5px" , marginRight : '5px'}}>
              <div className="col-md-8" style={{backgroundColor: "#90EE90"}}>
              <h4 style={{textAlign : 'center'}}>Items</h4>
@@ -217,7 +217,7 @@ function App(props) {
            
          </div>
          <div className="col-md-3" style={{padding: "2px"}}>
-           <div className="shadow-sm p-1 bg-body " style={{height: "160px"}}>
+           <div className="shadow-sm p-1 bg-body " style={{height: "200px"}}>
            <div className="row" style={{marginLeft: "5px" , marginRight : '5px'}}>
              <div className="col-md-8" style={{backgroundColor: "#FFC0CB"}}>
              <h4 style={{textAlign : 'center'}}>Items</h4>
@@ -241,13 +241,13 @@ function App(props) {
            
          </div>
          <div className="col-md-3"  style={{padding: "2px"}}>
-         <div className="shadow-sm p-1 bg-body " style={{height: "160px"}}>
+         <div className="shadow-sm p-1 bg-body " style={{height: "200px"}}>
              <img src={last} alt='' style={{height : '140px' , width : '350px'}}/>
            </div>
            
          </div>
          <div className="col-md-3" style={{padding: "2px"}}>
-           <div className="shadow-sm p-1 bg-body " style={{height: "160px"}}>
+           <div className="shadow-sm p-1 bg-body " style={{height: "200px"}}>
              <h4 style={{textAlign : 'center', marginTop : '40px'}}><i class="bi bi-star"></i>4.6</h4>
            </div>
         
