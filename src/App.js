@@ -38,7 +38,7 @@ function App(props) {
           </nav>
           <section className='p-4 my-container'>
               <button className='btn my-4' id='menu-btn'>
-                   side
+              <i class="bi bi-list"></i>
               </button>
               <div className="col-md-12">
     <div className="row">
