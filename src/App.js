@@ -9,18 +9,19 @@ import './App.css'
 
 function App(props) {
         
-            var menu_bar = document.querySelector('#menu-btn')
-             var sidebar = document.querySelector('#sidebar')
-             var container = document.querySelector(".my-container")
-             menu_bar.addEventListener('click' ,() => {
-              
-              sidebar.classList.toggle('active-nav') 
-              container.classList.toggle('active-cont')
-    }) 
+              //   var menu_bar = document.querySelector('#menu-btn')
+              //   var sidebar = document.querySelector('#sidebar')
+              //   var container = document.querySelector(".my-container")
+              //   menu_bar.addEventListener('click' ,() => {
+                
+              //   sidebar.classList.toggle('active-nav') 
+              //   container.classList.toggle('active-cont')
+              // }) 
   
       return (
  
          <div>
+            
          
           <nav className='navbar navbar-expand d-flex flex-column align-item-start' id='sidebar'> 
             <p className='navbar-brand text-dark mt-5'>
