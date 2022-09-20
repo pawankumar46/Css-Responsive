@@ -1,0 +1,42 @@
+body{
+    min-height : 100vh;
+    background-color: white;
+}
+
+.navbar {
+    width : 250px;
+    height : 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: white;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav_link:hover {
+    background-color: black;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav{
+    margin-left: 0;
+}
+
+.active-cont{
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+#menu-btn:focus {
+  box-shadow: 0 0 0 0.25rem ;
+}

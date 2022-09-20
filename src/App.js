@@ -1,21 +1,45 @@
-import React , {useState, useEffect} from 'react'
+import React  from 'react'
 import pic3 from './images/pic3.jpg'
 import pie from  './images/pie-chart.jpg'
 import line from './images/graph.png'
 import last from './images/bi-line.png'
 import count from './images/count.jpg'
-import axios from 'axios'
+
+import './App.css'
 
 function App(props) {
-    const [data , setData] = useState([])
-  return (
+        
+            var menu_bar = document.querySelector('#menu-btn')
+             var sidebar = document.querySelector('#sidebar')
+             var container = document.querySelector(".my-container")
+             menu_bar.addEventListener('click' ,() => {
+              
+              sidebar.classList.toggle('active-nav') 
+              container.classList.toggle('active-cont')
+    }) 
+  
+      return (
  
          <div>
-          <nav>
-
-
+         
+          <nav className='navbar navbar-expand d-flex flex-column align-item-start' id='sidebar'> 
+            <p className='navbar-brand text-dark mt-5'>
+               <div className='display'>Menu</div>
+            </p>
+              <ul className='navbar-nav d-flex flex-column mt-5 w-100'>
+                   <li className='nav-item w-100'>
+                     <p className='nav-link text-dark pl-4'>Home</p>
+                   </li>
+                   <li className='nav-item w-100'>
+                     <p className='nav-link text-dark pl-4'>About</p>
+                   </li>
+              </ul>
           </nav>
-<div className="col-md-12">
+          <section className='p-4 my-container'>
+              <button className='btn my-4' id='menu-btn'>
+                   side
+              </button>
+              <div className="col-md-12">
     <div className="row">
       
       <div className="col-md-6">
@@ -232,6 +256,8 @@ function App(props) {
     
     </div>
   </div>
+          </section>
+        
     </div>
   );
 }
